@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Gill Sans', sans-serif;
+}
+body{
+    background-color: black;
+    color:white;
+    
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 0px 0px 20px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    z-index: 10;
+}
+.name{
+    display: flex;
+    font-family:URW Chancery L,cursive;   
+    color: #2e47ec; 
+}
+.name h2{
+    font-size: 1.9em;
+}
+.name h3{
+    position: absolute;
+    left:39.5px;
+    top:23px;
+    font-size: 1.7em;
+    font-family:URW Chancery L,cursive;
+}
+.navigation{
+    margin-right: 50px;
+}
+.navigation a{
+    padding:0px 10px 0px 10px;
+    text-decoration: none;
+    color: #2e47ec;
+    font-weight: 700;
+}
+.intro {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items:center;
+    text-align: center;
+    margin-top: 2rem;
+}
+.txt{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+}
+.txt p{   
+    line-height: 1.5;
+    font-size: 2rem;
+    font-family: 'Segoe UI',sans-serif;
+    color:white;
+}
+img{
+    height: 50vh;
+    width: 23vw;
+    padding-left: 1.5rem;
+    filter: brightness(130%);
+}
+.resume {
+    position: absolute;
+    display: flex;
+}
+.resume button{
+    margin-top: 15rem;
+    margin-right:2rem;
+    padding: 2px 7px;
+    border-radius: 5px;
+    font-family: 'Trebuchet MS', sans-serif;
+    background-color:rgb(184, 37, 103);
+    border: none;
+    font-weight: bolder;
+}
+
+.designation p{
+    line-height: 1.5;
+    font-size: 2rem;
+    font-family: 'Segoe UI',sans-serif;
+    color:white;
+    margin-left: 1.5rem;
+}
+.aboutme{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(162, 0, 255, 0.212);
+    width: 100%;
+    flex-direction: column;
+    margin: 8rem 0rem 5rem;
+    padding-top: 2rem;
+}
+.aboutme h2{
+    padding:30px;
+    font-family:'Segoe UI',sans-serif;
+    margin-right: 1rem;
+   
+}
+.aboutme p{
+    width: 50%;
+    margin: 5px 0px 40px;
+    line-height: 2.0;
+    font-family:'Lucida Sans Unicode',sans-serif;
+    padding-bottom: 2rem;   
+}
+.skill{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin: 3rem 0rem;    
+}
+.skill h2{
+    font-family: 'Segoe UI',sans-serif;
+    padding-bottom: 3rem;
+}
+.skillset{
+    width: 50%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding-bottom: 5rem;
+}
+.skillset .dot{
+    position: relative;
+    height: 80px;
+    width: 80px;
+    display:inline-block;
+    border-radius:50%;
+    background-color: rgba(246, 0, 0, 0.481);    
+}
+.skillset p{
+    position:absolute;
+    margin-top: 2rem;
+    margin-left: 1.5rem;
+    font-weight: bold;
+    font-size: 1rem; 
+}
+.skillset .html{
+    margin-left: 1.2rem;
+}
+.skillset .js{
+    margin-left: 1.8rem;
+}
+.skillset .react{
+    margin-left: 1.2rem;
+}
+.project{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(162, 0, 255, 0.212);
+    width: 100%;
+}
+.project h2{
+    font-family:'Segoe UI',sans-serif;
+    padding:50px;
+    font-size: 1.9rem;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+.container1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    margin-right: 70px;
+    margin-bottom: 50px;
+}
+.card img{
+    position: relative;
+    height:55vh;
+    width:15vw;
+}
+.card .button{
+    position: absolute;
+    height: 1.2rem;
+    width:5rem;
+    margin:1rem 0rem 2rem 6rem;
+    border-radius: 3px;
+    border: none;
+    background-color: rgb(40, 170, 187);
+    font-weight: 600;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.container1 .card img{
+    position: relative;
+    height:50vh;
+    width:25vw;
+}
+.container1 .card .button{
+    margin-left: 10rem;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.contact h2{
+    font-family:'Segoe UI',sans-serif;
+    padding:50px;
+    font-size: 1.9rem;
+}
+.contact .sociallinks{
+    display: flex;
+    flex-direction: row;
+    color:white;
+    justify-content: space-between;
+}
+.sociallinks a{
+       padding: 40px;
+
+}
